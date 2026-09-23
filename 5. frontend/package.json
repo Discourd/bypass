@@ -1,0 +1,11 @@
+{
+  "name": "delta-bypass-frontend",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "http-server -p 3000 -c-1",
+    "build": "echo 'No build step needed for static files'"
+  },
+  "devDependencies": {
+    "http-server": "^5^.1.1"
+  }
+}
