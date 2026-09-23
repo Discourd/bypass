@@ -1,5 +1,5 @@
 {
-  "name": "delta-bypass-backend",
+  "name": "delta-bypass",
   "version": "1.0.0",
   "main": "server.js",
   "dependencies": {
@@ -7,9 +7,12 @@
     "http-proxy-middleware": "^2^.0.6",
     "cors": "^2^.8.5",
     "node-cache": "^3^.1.2",
-    "axios": "^4^.4.0"
+    "axios": "^4^.6.0"
   },
   "scripts": {
     "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
